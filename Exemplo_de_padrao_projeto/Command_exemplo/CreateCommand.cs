@@ -9,7 +9,6 @@ namespace Exemplo_de_padrao_projeto.Command_exemplo
    public class CreateCommand : Command
     {
         Apresentar_produto _Produto;
-        Command pesquisa;
        public CreateCommand(Apresentar_produto apresentar)
         {
            this._Produto =  apresentar;
